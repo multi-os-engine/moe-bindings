@@ -1,0 +1,9 @@
+platform :ios, '8.4'
+use_frameworks!
+
+target "FacebookSample" do
+    pod 'Bolts', '1.8.4'
+	pod 'FBSDKCoreKit', '4.19.0'
+	pod 'FBSDKShareKit', '4.19.0'
+	pod 'FBSDKLoginKit', '4.19.0'
+end

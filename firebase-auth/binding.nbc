@@ -1,0 +1,1 @@
+{"output":"src/main/java","platform":"iOS","inline-function-binding-output":"src/main/native","bindings":[{"type":"framework","name":"FirebaseAuth","objcClassGenerationMode":"Binding","frameworkPath":"xcode/Pods/FirebaseAuth/Frameworks/FirebaseAuth.framework","packageBase":"org.moe.binding","importCode":"#import <FirebaseAuth/FirebaseAuth.h>"}]}

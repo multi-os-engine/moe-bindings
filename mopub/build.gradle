@@ -1,0 +1,129 @@
+group 'org.multi-os-engine.binding.ios'
+version '4.12.0'
+
+buildscript {
+    // Add central and local Maven repos
+    repositories {
+        jcenter()
+        mavenLocal()
+    }
+    dependencies {
+        // MOE plugin
+        classpath group: 'org.multi-os-engine', name: 'moe-gradle', version: '1.3.+'
+        classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3"
+    }
+}
+
+// Apply plugins
+apply plugin: 'eclipse'
+apply plugin: 'moe'
+apply plugin: 'maven-publish'
+apply plugin: "com.jfrog.bintray"
+
+// Set source and target to Java 8
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
+
+// Setup MOE
+moe {
+    xcode {
+        project 'xcode/MopubSample.xcodeproj'
+        mainTarget 'MopubSample'
+        testTarget 'MopubSample-Test'
+
+        workspace 'xcode/MopubSample.xcworkspace'
+        mainScheme 'MopubSample'
+        testScheme 'MopubSample-Test'
+    }
+
+    natjgen {
+        config='binding.nbc'
+        logFile='binding/logs/natjgen-${DATETIME}.html'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'lib', include: '*.jar')
+}
+
+jar {
+    baseName = 'mopub'
+    dependsOn classes
+    from sourceSets.main.allSource
+    exclude('com/migeran/moe/**/**')
+}
+
+task javadocJar(type: Jar, dependsOn:javadoc) {
+    from javadoc.destinationDir
+    classifier = 'javadoc'
+}
+
+artifacts {
+    archives jar
+    archives javadocJar
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+            group project.group
+            artifactId 'mopub'
+            version project.version
+        }
+        mavenJavaSnapshot(MavenPublication) {
+            from components.java
+            group project.group
+            artifactId 'mopub'
+            version = "${project.version}-SNAPSHOT"
+        }
+    }
+}
+
+bintray {
+    if (project.hasProperty('bintray.user')) {
+        user = property('bintray.user')
+    }
+    if (project.hasProperty('bintray.key')) {
+        key = property('bintray.key')
+    }
+
+    publications = ['mavenJava']
+
+    pkg {
+        repo = 'maven'
+        name = 'mopub'
+        userOrg = 'multi-os-engine'
+        websiteUrl = 'https://multi-os-engine.org'
+        vcsUrl = 'https://github.com/multi-os-engine/moe-bindings'
+        licenses = ['Apache-2.0']
+        labels = ['moe', 'multi-os-engine']
+        publicDownloadNumbers = false
+
+        publish = true
+
+        version {
+            name = project.version
+        }
+    }
+}
+
+if (rootProject.hasProperty('artifactory.url')) {
+    artifactory {
+        contextUrl = rootProject.getProperty('artifactory.url')
+        publish {
+            repository {
+                repoKey = rootProject.getProperty('artifactory.key')
+                username = rootProject.getProperty('artifactory.user')
+                password = rootProject.getProperty('artifactory.pass')
+            }
+            Defaults {
+                publications('mavenJavaSnapshot')
+                publishArtifacts = true
+                publishPom = true
+                publishIvy = true
+            }
+        }
+    }
+}
+

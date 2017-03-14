@@ -1,0 +1,6 @@
+platform :ios, '8.4'
+use_frameworks!
+
+target "GooglePlusSample" do
+	pod 'google-plus-ios-sdk', '1.7.1'
+end

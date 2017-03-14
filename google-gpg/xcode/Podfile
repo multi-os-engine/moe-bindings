@@ -1,0 +1,5 @@
+platform :ios, '8.4'
+
+target "GooglePlayGamesSample" do
+	pod 'GooglePlayGames', '5.1.2'
+end

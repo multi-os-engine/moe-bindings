@@ -1,0 +1,6 @@
+platform :ios, '8.4'
+use_frameworks!
+
+target "FirebaseSample" do
+	pod 'Firebase', '3.13.0'
+end
