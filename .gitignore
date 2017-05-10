@@ -25,3 +25,5 @@ google-mobile-ads-sdk/binding/logs
 google-mobile-ads-sdk/xcode/Pods
 google-maps-ios-utils/xcode/Pods
 google-maps-ios-utils/binding/logs
+google-maps/xcode/Pods
+google-maps/binding/logs
