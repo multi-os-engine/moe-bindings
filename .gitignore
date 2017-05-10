@@ -21,3 +21,5 @@ google-gpg/bin
 .classpath
 mopub/bin
 firebase-auth/xcode/Pods
+google-mobile-ads-sdk/binding/logs
+google-mobile-ads-sdk/xcode/Pods

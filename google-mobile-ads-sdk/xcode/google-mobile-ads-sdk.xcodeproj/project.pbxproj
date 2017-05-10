@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A5334F370448A105AC24FEC /* moe-main-interfaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 82083FBE92810CF4A352201F /* moe-main-interfaces.m */; };
+		386A39D31D4A52C614D40FAE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43FF1FBFC259CFD8C17A6DB4 /* main.cpp */; };
+		58C6F5321DA66CB600309CB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C6F5301DA66CB600309CB6 /* Main.storyboard */; };
+		58C6F5341DA66CB600309CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C6F5331DA66CB600309CB6 /* Assets.xcassets */; };
+		58C6F5371DA66CB600309CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C6F5351DA66CB600309CB6 /* LaunchScreen.storyboard */; };
+		A4F8C1AE5EDB5CA551075C99 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51E047053CDE83BC0E6F9CDB /* main.cpp */; };
+		C92BE8561EC33B2D00C64713 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE8551EC33B2D00C64713 /* AudioToolbox.framework */; };
+		C92BE8581EC33B3A00C64713 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE8571EC33B3A00C64713 /* AVFoundation.framework */; };
+		C92BE85A1EC33B4500C64713 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE8591EC33B4500C64713 /* CoreGraphics.framework */; };
+		C92BE85C1EC33B5100C64713 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE85B1EC33B5100C64713 /* CoreMedia.framework */; };
+		C92BE85E1EC33B5C00C64713 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE85D1EC33B5C00C64713 /* CoreMotion.framework */; };
+		C92BE8601EC33B6800C64713 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE85F1EC33B6800C64713 /* CoreTelephony.framework */; };
+		C92BE8621EC33B7300C64713 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE8611EC33B7300C64713 /* CoreVideo.framework */; };
+		C92BE8641EC33B7E00C64713 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE8631EC33B7E00C64713 /* GLKit.framework */; };
+		C92BE8661EC33B8A00C64713 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE8651EC33B8A00C64713 /* MediaPlayer.framework */; };
+		C92BE8681EC33B9600C64713 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE8671EC33B9600C64713 /* MessageUI.framework */; };
+		C92BE86A1EC33BA300C64713 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE8691EC33BA300C64713 /* MobileCoreServices.framework */; };
+		C92BE86C1EC33BB100C64713 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE86B1EC33BB100C64713 /* OpenGLES.framework */; };
+		C92BE86E1EC33BBB00C64713 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE86D1EC33BBB00C64713 /* StoreKit.framework */; };
+		C92BE8701EC33BD200C64713 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE86F1EC33BD200C64713 /* SystemConfiguration.framework */; };
+		C92BE8721EC33C3C00C64713 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE8711EC33C3C00C64713 /* QuartzCore.framework */; };
+		C92BE8741EC33CBF00C64713 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C92BE8731EC33CBF00C64713 /* UIKit.framework */; };
+		DFEDC3A717F43ED7FB104382 /* libPods-google-mobile-ads-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EFD5C13F22526F1653D24EB /* libPods-google-mobile-ads-sdk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43FF1FBFC259CFD8C17A6DB4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		51E047053CDE83BC0E6F9CDB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5863B87B1DA682C800E46B6A /* google-mobile-ads-sdk-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "google-mobile-ads-sdk-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5863B88E1DA682C800E46B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58C6F5241DA66CB600309CB6 /* google-mobile-ads-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "google-mobile-ads-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C6F5311DA66CB600309CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58C6F5331DA66CB600309CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58C6F5361DA66CB600309CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58C6F5381DA66CB600309CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82083FBE92810CF4A352201F /* moe-main-interfaces.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "moe-main-interfaces.m"; path = "../build/moe/main/ui-headers/moe-main-interfaces.m"; sourceTree = "<group>"; };
+		9EFD5C13F22526F1653D24EB /* libPods-google-mobile-ads-sdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-google-mobile-ads-sdk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3131B7CBFCECF6FE0D6E2EA /* Pods-google-mobile-ads-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-google-mobile-ads-sdk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-google-mobile-ads-sdk/Pods-google-mobile-ads-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		C926E1E06C81A3FF96DB5FC4 /* Pods-google-mobile-ads-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-google-mobile-ads-sdk.release.xcconfig"; path = "Pods/Target Support Files/Pods-google-mobile-ads-sdk/Pods-google-mobile-ads-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		C92BE8551EC33B2D00C64713 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C92BE8571EC33B3A00C64713 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C92BE8591EC33B4500C64713 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C92BE85B1EC33B5100C64713 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C92BE85D1EC33B5C00C64713 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C92BE85F1EC33B6800C64713 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C92BE8611EC33B7300C64713 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C92BE8631EC33B7E00C64713 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		C92BE8651EC33B8A00C64713 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C92BE8671EC33B9600C64713 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C92BE8691EC33BA300C64713 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C92BE86B1EC33BB100C64713 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C92BE86D1EC33BBB00C64713 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C92BE86F1EC33BD200C64713 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C92BE8711EC33C3C00C64713 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C92BE8731EC33CBF00C64713 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5863B8781DA682C800E46B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C6F5211DA66CB600309CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92BE8741EC33CBF00C64713 /* UIKit.framework in Frameworks */,
+				C92BE8721EC33C3C00C64713 /* QuartzCore.framework in Frameworks */,
+				C92BE8701EC33BD200C64713 /* SystemConfiguration.framework in Frameworks */,
+				C92BE86E1EC33BBB00C64713 /* StoreKit.framework in Frameworks */,
+				C92BE86C1EC33BB100C64713 /* OpenGLES.framework in Frameworks */,
+				C92BE86A1EC33BA300C64713 /* MobileCoreServices.framework in Frameworks */,
+				C92BE8681EC33B9600C64713 /* MessageUI.framework in Frameworks */,
+				C92BE8661EC33B8A00C64713 /* MediaPlayer.framework in Frameworks */,
+				C92BE8641EC33B7E00C64713 /* GLKit.framework in Frameworks */,
+				C92BE8621EC33B7300C64713 /* CoreVideo.framework in Frameworks */,
+				C92BE8601EC33B6800C64713 /* CoreTelephony.framework in Frameworks */,
+				C92BE85E1EC33B5C00C64713 /* CoreMotion.framework in Frameworks */,
+				C92BE85C1EC33B5100C64713 /* CoreMedia.framework in Frameworks */,
+				C92BE85A1EC33B4500C64713 /* CoreGraphics.framework in Frameworks */,
+				C92BE8581EC33B3A00C64713 /* AVFoundation.framework in Frameworks */,
+				C92BE8561EC33B2D00C64713 /* AudioToolbox.framework in Frameworks */,
+				DFEDC3A717F43ED7FB104382 /* libPods-google-mobile-ads-sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39E3D786601E1D4E537F449D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C92BE8731EC33CBF00C64713 /* UIKit.framework */,
+				C92BE8711EC33C3C00C64713 /* QuartzCore.framework */,
+				C92BE86F1EC33BD200C64713 /* SystemConfiguration.framework */,
+				C92BE86D1EC33BBB00C64713 /* StoreKit.framework */,
+				C92BE86B1EC33BB100C64713 /* OpenGLES.framework */,
+				C92BE8691EC33BA300C64713 /* MobileCoreServices.framework */,
+				C92BE8671EC33B9600C64713 /* MessageUI.framework */,
+				C92BE8651EC33B8A00C64713 /* MediaPlayer.framework */,
+				C92BE8631EC33B7E00C64713 /* GLKit.framework */,
+				C92BE8611EC33B7300C64713 /* CoreVideo.framework */,
+				C92BE85F1EC33B6800C64713 /* CoreTelephony.framework */,
+				C92BE85D1EC33B5C00C64713 /* CoreMotion.framework */,
+				C92BE85B1EC33B5100C64713 /* CoreMedia.framework */,
+				C92BE8591EC33B4500C64713 /* CoreGraphics.framework */,
+				C92BE8571EC33B3A00C64713 /* AVFoundation.framework */,
+				C92BE8551EC33B2D00C64713 /* AudioToolbox.framework */,
+				9EFD5C13F22526F1653D24EB /* libPods-google-mobile-ads-sdk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5863B87C1DA682C800E46B6A /* google-mobile-ads-sdk-Test */ = {
+			isa = PBXGroup;
+			children = (
+				5863B88E1DA682C800E46B6A /* Info.plist */,
+				5863B87D1DA682C800E46B6A /* Supporting Files */,
+			);
+			path = "google-mobile-ads-sdk-Test";
+			sourceTree = "<group>";
+		};
+		5863B87D1DA682C800E46B6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51E047053CDE83BC0E6F9CDB /* main.cpp */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		58C6F51B1DA66CB600309CB6 = {
+			isa = PBXGroup;
+			children = (
+				58C6F5261DA66CB600309CB6 /* google-mobile-ads-sdk */,
+				5863B87C1DA682C800E46B6A /* google-mobile-ads-sdk-Test */,
+				58C6F5251DA66CB600309CB6 /* Products */,
+				5EA4567AF9986CE6DCD073DD /* Pods */,
+				39E3D786601E1D4E537F449D /* Frameworks */,
+				9831844F6B2CAF3A7F73A202 /* Multi-OS Engine */,
+			);
+			sourceTree = "<group>";
+		};
+		58C6F5251DA66CB600309CB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58C6F5241DA66CB600309CB6 /* google-mobile-ads-sdk.app */,
+				5863B87B1DA682C800E46B6A /* google-mobile-ads-sdk-Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58C6F5261DA66CB600309CB6 /* google-mobile-ads-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				58C6F5301DA66CB600309CB6 /* Main.storyboard */,
+				58C6F5331DA66CB600309CB6 /* Assets.xcassets */,
+				58C6F5351DA66CB600309CB6 /* LaunchScreen.storyboard */,
+				58C6F5381DA66CB600309CB6 /* Info.plist */,
+				58C6F5271DA66CB600309CB6 /* Supporting Files */,
+			);
+			path = "google-mobile-ads-sdk";
+			sourceTree = "<group>";
+		};
+		58C6F5271DA66CB600309CB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43FF1FBFC259CFD8C17A6DB4 /* main.cpp */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5EA4567AF9986CE6DCD073DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3131B7CBFCECF6FE0D6E2EA /* Pods-google-mobile-ads-sdk.debug.xcconfig */,
+				C926E1E06C81A3FF96DB5FC4 /* Pods-google-mobile-ads-sdk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9831844F6B2CAF3A7F73A202 /* Multi-OS Engine */ = {
+			isa = PBXGroup;
+			children = (
+				82083FBE92810CF4A352201F /* moe-main-interfaces.m */,
+			);
+			name = "Multi-OS Engine";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5863B87A1DA682C800E46B6A /* google-mobile-ads-sdk-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5863B88F1DA682C800E46B6A /* Build configuration list for PBXNativeTarget "google-mobile-ads-sdk-Test" */;
+			buildPhases = (
+				E8B48AE63C9040C501C99D5B /* Compile Sources (MOE) */,
+				5863B8771DA682C800E46B6A /* Sources */,
+				5863B8781DA682C800E46B6A /* Frameworks */,
+				5863B8791DA682C800E46B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "google-mobile-ads-sdk-Test";
+			productName = "google-mobile-ads-sdk-Test";
+			productReference = 5863B87B1DA682C800E46B6A /* google-mobile-ads-sdk-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58C6F5231DA66CB600309CB6 /* google-mobile-ads-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58C6F53B1DA66CB600309CB6 /* Build configuration list for PBXNativeTarget "google-mobile-ads-sdk" */;
+			buildPhases = (
+				72778AF69C2DD3754BD85C88 /* [CP] Check Pods Manifest.lock */,
+				47A8522556D58AAAE2068E3A /* Compile Sources (MOE) */,
+				58C6F5201DA66CB600309CB6 /* Sources */,
+				58C6F5211DA66CB600309CB6 /* Frameworks */,
+				58C6F5221DA66CB600309CB6 /* Resources */,
+				DF421C67D22CF654EB16D296 /* [CP] Embed Pods Frameworks */,
+				F1CB84404362A498DDC90BDA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "google-mobile-ads-sdk";
+			productName = "google-mobile-ads-sdk";
+			productReference = 58C6F5241DA66CB600309CB6 /* google-mobile-ads-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58C6F51C1DA66CB600309CB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Migeran Ltd.";
+				TargetAttributes = {
+					5863B87A1DA682C800E46B6A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					58C6F5231DA66CB600309CB6 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 58C6F51F1DA66CB600309CB6 /* Build configuration list for PBXProject "google-mobile-ads-sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58C6F51B1DA66CB600309CB6;
+			productRefGroup = 58C6F5251DA66CB600309CB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58C6F5231DA66CB600309CB6 /* google-mobile-ads-sdk */,
+				5863B87A1DA682C800E46B6A /* google-mobile-ads-sdk-Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5863B8791DA682C800E46B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C6F5221DA66CB600309CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C6F5371DA66CB600309CB6 /* LaunchScreen.storyboard in Resources */,
+				58C6F5341DA66CB600309CB6 /* Assets.xcassets in Resources */,
+				58C6F5321DA66CB600309CB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47A8522556D58AAAE2068E3A /* Compile Sources (MOE) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Sources (MOE)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexport MOE_BUILD_SOURCE_SET=\"main\"\n\n# Check project directory\nif [ ! -d \"$MOE_PROJECT_DIR\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_DIR' doesn't point to a directory!\"; exit 1;\nfi\ncd \"$MOE_PROJECT_DIR\"\n\n# Export JAVA_HOME\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\n\n# Utility function for finding the Gradle implementation\nfunction findGradle {\n    CD=\"$PWD\"\n    while [ \"$CD\" != \"\" ]; do\n        echo \"Looking for gradlew in $CD\"\n        if [ -x \"$CD/gradlew\" ]; then\n            GRADLE_EXEC=$CD/gradlew\n            return 0\n        fi\n        CD=\"${CD%/*}\"\n    done\n\n    echo \"Checking with 'which'\"\n    GRADLE_EXEC=$(which 'gradle')\n\n    if [ \"$GRADLE_EXEC\" = \"\" ]; then\n        echo \"Failed to locate 'gradle' executable!\"\n        exit 1\n    fi\n}\n\n# Build project with Gradle\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n    \"$GRADLE_EXEC\" --no-daemon moeXcodeInternal -s\nfi\n\n# Check output directory\nif [ ! -d \"${MOE_PROJECT_BUILD_DIR}\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_BUILD_DIR' doesn't point to a directory!\"; exit 1;\nfi\n\n# Copy some resources\nmkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\ncp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/application.jar\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\ncp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/preregister.txt\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nif [ \"${MOE_BUILD_SOURCE_SET}\" == \"test\" ]; then\n    cp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/classlist.txt\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nfi\n\n# Copy android CA certificates on demand\nif [ \"${MOE_COPY_ANDROID_CACERTS}\" == \"YES\" ]; then\n    rm -rf \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\n    mkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\n    unzip \"${MOE_SDK_PATH}/sdk/moe-core-certificates.zip\" -d \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\nfi\n\n# Copy and sign MOE framework\nrsync -av --filter \"- CVS/\" --filter \"- .svn/\" --filter \"- .git/\" --filter \"- .hg/\" --filter \"- Headers\" --filter \"- PrivateHeaders\" --filter \"- Modules\" \\\n    \"${MOE_FRAMEWORK_PATH}/MOE.framework\" \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/\"\nif [ -n \"${EXPANDED_CODE_SIGN_IDENTITY}\" -a \"${CODE_SIGNING_REQUIRED}\" != \"NO\" -a \"${CODE_SIGNING_ALLOWED}\" != \"NO\" ]; then\n    /usr/bin/codesign --force --sign $EXPANDED_CODE_SIGN_IDENTITY $OTHER_CODE_SIGN_FLAGS \\\n        --preserve-metadata=identifier,entitlements \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOE.framework\"\nfi\n";
+		};
+		72778AF69C2DD3754BD85C88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF421C67D22CF654EB16D296 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-google-mobile-ads-sdk/Pods-google-mobile-ads-sdk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B48AE63C9040C501C99D5B /* Compile Sources (MOE) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Sources (MOE)";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\n\nexport MOE_BUILD_SOURCE_SET=\"test\"\n\n# Check project directory\nif [ ! -d \"$MOE_PROJECT_DIR\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_DIR' doesn't point to a directory!\"; exit 1;\nfi\ncd \"$MOE_PROJECT_DIR\"\n\n# Export JAVA_HOME\nexport JAVA_HOME=$(/usr/libexec/java_home -v 1.8)\n\n# Utility function for finding the Gradle implementation\nfunction findGradle {\n    CD=\"$PWD\"\n    while [ \"$CD\" != \"\" ]; do\n        echo \"Looking for gradlew in $CD\"\n        if [ -x \"$CD/gradlew\" ]; then\n            GRADLE_EXEC=$CD/gradlew\n            return 0\n        fi\n        CD=\"${CD%/*}\"\n    done\n\n    echo \"Checking with 'which'\"\n    GRADLE_EXEC=$(which 'gradle')\n\n    if [ \"$GRADLE_EXEC\" = \"\" ]; then\n        echo \"Failed to locate 'gradle' executable!\"\n        exit 1\n    fi\n}\n\n# Build project with Gradle\nif [ -z \"$MOE_GRADLE_EXTERNAL_BUILD\" ]; then\n    findGradle\n    \"$GRADLE_EXEC\" --no-daemon moeXcodeInternal -s\nfi\n\n# Check output directory\nif [ ! -d \"${MOE_PROJECT_BUILD_DIR}\" ]; then\n    echo \"$0:$LINENO:1: error: 'MOE_PROJECT_BUILD_DIR' doesn't point to a directory!\"; exit 1;\nfi\n\n# Copy some resources\nmkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\ncp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/application.jar\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\ncp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/preregister.txt\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nif [ \"${MOE_BUILD_SOURCE_SET}\" == \"test\" ]; then\n    cp \"${MOE_PROJECT_BUILD_DIR}/moe/${MOE_BUILD_SOURCE_SET}/classlist.txt\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/\"\nfi\n\n# Copy android CA certificates on demand\nif [ \"${MOE_COPY_ANDROID_CACERTS}\" == \"YES\" ]; then\n    rm -rf \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\n    mkdir -p \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\n    unzip \"${MOE_SDK_PATH}/sdk/moe-core-certificates.zip\" -d \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/android_root/etc/security/cacerts\"\nfi\n\n# Copy and sign MOE framework\nrsync -av --filter \"- CVS/\" --filter \"- .svn/\" --filter \"- .git/\" --filter \"- .hg/\" --filter \"- Headers\" --filter \"- PrivateHeaders\" --filter \"- Modules\" \\\n    \"${MOE_FRAMEWORK_PATH}/MOE.framework\" \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/\"\nif [ -n \"${EXPANDED_CODE_SIGN_IDENTITY}\" -a \"${CODE_SIGNING_REQUIRED}\" != \"NO\" -a \"${CODE_SIGNING_ALLOWED}\" != \"NO\" ]; then\n    /usr/bin/codesign --force --sign $EXPANDED_CODE_SIGN_IDENTITY $OTHER_CODE_SIGN_FLAGS \\\n        --preserve-metadata=identifier,entitlements \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MOE.framework\"\nfi\n";
+		};
+		F1CB84404362A498DDC90BDA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-google-mobile-ads-sdk/Pods-google-mobile-ads-sdk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5863B8771DA682C800E46B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F8C1AE5EDB5CA551075C99 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C6F5201DA66CB600309CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386A39D31D4A52C614D40FAE /* main.cpp in Sources */,
+				1A5334F370448A105AC24FEC /* moe-main-interfaces.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58C6F5301DA66CB600309CB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58C6F5311DA66CB600309CB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58C6F5351DA66CB600309CB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58C6F5361DA66CB600309CB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5863B8901DA682C800E46B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${MOE_FRAMEWORK_PATH}",
+				);
+				INFOPLIST_FILE = "google-mobile-ads-sdk-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MOE_COPY_ANDROID_CACERTS = NO;
+				MOE_FRAMEWORK_PATH = "${MOE_SDK_PATH}/sdk/${PLATFORM_NAME}";
+				MOE_OTHER_LDFLAGS = "${MOE_SECT_OAT} ${MOE_SECT_ART} ${MOE_SEGPROT} ${MOE_PAGEZERO} ${MOE_CUSTOM_OTHER_LDFLAGS} -lstdc++ -framework MOE";
+				"MOE_PAGEZERO[sdk=iphoneos*]" = "";
+				"MOE_PAGEZERO[sdk=iphonesimulator*]" = "-pagezero_size 4096";
+				MOE_PROJECT_BUILD_DIR = "${MOE_PROJECT_DIR}/build";
+				MOE_PROJECT_DIR = "${SRCROOT}/../";
+				MOE_SDK_PATH = "${MOE_PROJECT_BUILD_DIR}/moe/sdk";
+				MOE_SECT_ART = "-sectcreate __ARTDATA __artdata \"${MOE_PROJECT_BUILD_DIR}/moe/test/xcode/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/${arch}.art\"";
+				MOE_SECT_OAT = "-sectcreate __OATDATA __oatdata \"${MOE_PROJECT_BUILD_DIR}/moe/test/xcode/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/${arch}.oat\"";
+				"MOE_SEGPROT[sdk=iphoneos*]" = "-segprot __OATDATA rx rx -segprot __ARTDATA rw rw";
+				"MOE_SEGPROT[sdk=iphonesimulator*]" = "-segprot __OATDATA rwx rx -segprot __ARTDATA rwx rw";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"${MOE_OTHER_LDFLAGS}",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.migeran.moe.google-mobile-ads-sdk-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		5863B8911DA682C800E46B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${MOE_FRAMEWORK_PATH}",
+				);
+				INFOPLIST_FILE = "google-mobile-ads-sdk-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MOE_COPY_ANDROID_CACERTS = NO;
+				MOE_FRAMEWORK_PATH = "${MOE_SDK_PATH}/sdk/${PLATFORM_NAME}";
+				MOE_OTHER_LDFLAGS = "${MOE_SECT_OAT} ${MOE_SECT_ART} ${MOE_SEGPROT} ${MOE_PAGEZERO} ${MOE_CUSTOM_OTHER_LDFLAGS} -lstdc++ -framework MOE";
+				"MOE_PAGEZERO[sdk=iphoneos*]" = "";
+				"MOE_PAGEZERO[sdk=iphonesimulator*]" = "-pagezero_size 4096";
+				MOE_PROJECT_BUILD_DIR = "${MOE_PROJECT_DIR}/build";
+				MOE_PROJECT_DIR = "${SRCROOT}/../";
+				MOE_SDK_PATH = "${MOE_PROJECT_BUILD_DIR}/moe/sdk";
+				MOE_SECT_ART = "-sectcreate __ARTDATA __artdata \"${MOE_PROJECT_BUILD_DIR}/moe/test/xcode/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/${arch}.art\"";
+				MOE_SECT_OAT = "-sectcreate __OATDATA __oatdata \"${MOE_PROJECT_BUILD_DIR}/moe/test/xcode/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/${arch}.oat\"";
+				"MOE_SEGPROT[sdk=iphoneos*]" = "-segprot __OATDATA rx rx -segprot __ARTDATA rw rw";
+				"MOE_SEGPROT[sdk=iphonesimulator*]" = "-segprot __OATDATA rwx rx -segprot __ARTDATA rwx rw";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"${MOE_OTHER_LDFLAGS}",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.migeran.moe.google-mobile-ads-sdk-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		58C6F5391DA66CB600309CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58C6F53A1DA66CB600309CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58C6F53C1DA66CB600309CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3131B7CBFCECF6FE0D6E2EA /* Pods-google-mobile-ads-sdk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${MOE_FRAMEWORK_PATH}",
+				);
+				INFOPLIST_FILE = "google-mobile-ads-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MOE_COPY_ANDROID_CACERTS = NO;
+				MOE_FRAMEWORK_PATH = "${MOE_SDK_PATH}/sdk/${PLATFORM_NAME}";
+				MOE_OTHER_LDFLAGS = "${MOE_SECT_OAT} ${MOE_SECT_ART} ${MOE_SEGPROT} ${MOE_PAGEZERO} ${MOE_CUSTOM_OTHER_LDFLAGS} -lstdc++ -framework MOE";
+				"MOE_PAGEZERO[sdk=iphoneos*]" = "";
+				"MOE_PAGEZERO[sdk=iphonesimulator*]" = "-pagezero_size 4096";
+				MOE_PROJECT_BUILD_DIR = "${MOE_PROJECT_DIR}/build";
+				MOE_PROJECT_DIR = "${SRCROOT}/../";
+				MOE_SDK_PATH = "${MOE_PROJECT_BUILD_DIR}/moe/sdk";
+				MOE_SECT_ART = "-sectcreate __ARTDATA __artdata \"${MOE_PROJECT_BUILD_DIR}/moe/main/xcode/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/${arch}.art\"";
+				MOE_SECT_OAT = "-sectcreate __OATDATA __oatdata \"${MOE_PROJECT_BUILD_DIR}/moe/main/xcode/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/${arch}.oat\"";
+				"MOE_SEGPROT[sdk=iphoneos*]" = "-segprot __OATDATA rx rx -segprot __ARTDATA rw rw";
+				"MOE_SEGPROT[sdk=iphonesimulator*]" = "-segprot __OATDATA rwx rx -segprot __ARTDATA rwx rw";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"${MOE_OTHER_LDFLAGS}",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.migeran.moe.google-mobile-ads-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		58C6F53D1DA66CB600309CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C926E1E06C81A3FF96DB5FC4 /* Pods-google-mobile-ads-sdk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"${MOE_FRAMEWORK_PATH}",
+				);
+				INFOPLIST_FILE = "google-mobile-ads-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MOE_COPY_ANDROID_CACERTS = NO;
+				MOE_FRAMEWORK_PATH = "${MOE_SDK_PATH}/sdk/${PLATFORM_NAME}";
+				MOE_OTHER_LDFLAGS = "${MOE_SECT_OAT} ${MOE_SECT_ART} ${MOE_SEGPROT} ${MOE_PAGEZERO} ${MOE_CUSTOM_OTHER_LDFLAGS} -lstdc++ -framework MOE";
+				"MOE_PAGEZERO[sdk=iphoneos*]" = "";
+				"MOE_PAGEZERO[sdk=iphonesimulator*]" = "-pagezero_size 4096";
+				MOE_PROJECT_BUILD_DIR = "${MOE_PROJECT_DIR}/build";
+				MOE_PROJECT_DIR = "${SRCROOT}/../";
+				MOE_SDK_PATH = "${MOE_PROJECT_BUILD_DIR}/moe/sdk";
+				MOE_SECT_ART = "-sectcreate __ARTDATA __artdata \"${MOE_PROJECT_BUILD_DIR}/moe/main/xcode/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/${arch}.art\"";
+				MOE_SECT_OAT = "-sectcreate __OATDATA __oatdata \"${MOE_PROJECT_BUILD_DIR}/moe/main/xcode/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/${arch}.oat\"";
+				"MOE_SEGPROT[sdk=iphoneos*]" = "-segprot __OATDATA rx rx -segprot __ARTDATA rw rw";
+				"MOE_SEGPROT[sdk=iphonesimulator*]" = "-segprot __OATDATA rwx rx -segprot __ARTDATA rwx rw";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"${MOE_OTHER_LDFLAGS}",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.migeran.moe.google-mobile-ads-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5863B88F1DA682C800E46B6A /* Build configuration list for PBXNativeTarget "google-mobile-ads-sdk-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5863B8901DA682C800E46B6A /* Debug */,
+				5863B8911DA682C800E46B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C6F51F1DA66CB600309CB6 /* Build configuration list for PBXProject "google-mobile-ads-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C6F5391DA66CB600309CB6 /* Debug */,
+				58C6F53A1DA66CB600309CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58C6F53B1DA66CB600309CB6 /* Build configuration list for PBXNativeTarget "google-mobile-ads-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58C6F53C1DA66CB600309CB6 /* Debug */,
+				58C6F53D1DA66CB600309CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58C6F51C1DA66CB600309CB6 /* Project object */;
+}
