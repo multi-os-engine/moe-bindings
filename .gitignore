@@ -23,3 +23,5 @@ mopub/bin
 firebase-auth/xcode/Pods
 google-mobile-ads-sdk/binding/logs
 google-mobile-ads-sdk/xcode/Pods
+google-maps-ios-utils/xcode/Pods
+google-maps-ios-utils/binding/logs

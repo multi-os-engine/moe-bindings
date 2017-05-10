@@ -1,0 +1,6 @@
+platform :ios, '8.4'
+
+target "google-maps-ios-utils" do
+    pod 'GoogleMaps'
+    pod 'Google-Maps-iOS-Utils'
+end
