@@ -71,10 +71,6 @@ public class GPGRealTimeRoom extends NSObject {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -159,10 +155,6 @@ public class GPGRealTimeRoom extends NSObject {
 	public native GPGRealTimeRoom init();
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -189,10 +181,6 @@ public class GPGRealTimeRoom extends NSObject {
 	@Generated
 	@Selector("leave")
 	public native void leave();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Selector("localParticipant")

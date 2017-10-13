@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>MOE.Main.Class</key>
-	<string>org.moe.Main</string>
+	<string>com.migeran.moe.Main</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

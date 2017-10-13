@@ -74,10 +74,6 @@ public class GTLPlusPersonUrlsItem extends GTLObject {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -107,10 +103,6 @@ public class GTLPlusPersonUrlsItem extends GTLObject {
 	public native GTLPlusPersonUrlsItem init();
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -137,10 +129,6 @@ public class GTLPlusPersonUrlsItem extends GTLObject {
 	@Generated
 	@Selector("label")
 	public native String label();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Owned

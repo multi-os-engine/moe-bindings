@@ -78,10 +78,6 @@ public class GMSMutablePath extends GMSPath {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -111,10 +107,6 @@ public class GMSMutablePath extends GMSPath {
 	public native GMSMutablePath initWithPath(GMSPath path);
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("insertCoordinate:atIndex:")
 	public native void insertCoordinateAtIndex(
 			@ByValue CLLocationCoordinate2D coord, @NUInt long index);
@@ -142,10 +134,6 @@ public class GMSMutablePath extends GMSPath {
 	@Selector("keyPathsForValuesAffectingValueForKey:")
 	public static native NSSet<String> keyPathsForValuesAffectingValueForKey(
 			String key);
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Owned

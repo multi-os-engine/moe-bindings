@@ -25,6 +25,7 @@ import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.ObjCClassBinding;
 import org.moe.natj.objc.ann.Selector;
 import org.moe.natj.objc.map.ObjCObjectMapper;
+import apple.uikit.UIColor;
 
 @Generated
 @Runtime(ObjCRuntime.class)
@@ -68,10 +69,6 @@ public class GMUDefaultClusterIconGenerator extends NSObject implements
 	public static native void cancelPreviousPerformRequestsWithTargetSelectorObject(
 			@Mapped(ObjCObjectMapper.class) Object aTarget, SEL aSelector,
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
-
-	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
 
 	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
@@ -123,10 +120,6 @@ public class GMUDefaultClusterIconGenerator extends NSObject implements
 			NSArray<? extends UIImage> backgroundImages);
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -149,10 +142,6 @@ public class GMUDefaultClusterIconGenerator extends NSObject implements
 	@Selector("keyPathsForValuesAffectingValueForKey:")
 	public static native NSSet<String> keyPathsForValuesAffectingValueForKey(
 			String key);
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Owned
@@ -180,4 +169,10 @@ public class GMUDefaultClusterIconGenerator extends NSObject implements
 	@Selector("version")
 	@NInt
 	public static native long version_static();
+
+	@Generated
+	@Selector("initWithBuckets:backgroundColors:")
+	public native GMUDefaultClusterIconGenerator initWithBucketsBackgroundColors(
+			NSArray<? extends NSNumber> buckets,
+			NSArray<? extends UIColor> backgroundColors);
 }

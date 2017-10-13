@@ -79,10 +79,6 @@ public class GMSMarker extends GMSOverlay {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -126,10 +122,6 @@ public class GMSMarker extends GMSOverlay {
 	public native GMSMarker init();
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -164,10 +156,6 @@ public class GMSMarker extends GMSOverlay {
 	@Generated
 	@Selector("layer")
 	public native GMSMarkerLayer layer();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Selector("markerImageWithColor:")

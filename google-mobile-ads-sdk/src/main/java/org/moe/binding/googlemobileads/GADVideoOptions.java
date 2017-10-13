@@ -68,10 +68,6 @@ public class GADVideoOptions extends GADAdLoaderOptions {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -101,10 +97,6 @@ public class GADVideoOptions extends GADAdLoaderOptions {
 	public native GADVideoOptions init();
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -127,10 +119,6 @@ public class GADVideoOptions extends GADAdLoaderOptions {
 	@Selector("keyPathsForValuesAffectingValueForKey:")
 	public static native NSSet<String> keyPathsForValuesAffectingValueForKey(
 			String key);
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Owned
@@ -170,4 +158,12 @@ public class GADVideoOptions extends GADAdLoaderOptions {
 	@Selector("version")
 	@NInt
 	public static native long version_static();
+
+	@Generated
+	@Selector("clickToExpandRequested")
+	public native boolean clickToExpandRequested();
+
+	@Generated
+	@Selector("setClickToExpandRequested:")
+	public native void setClickToExpandRequested(boolean value);
 }

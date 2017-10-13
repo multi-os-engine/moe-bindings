@@ -68,10 +68,6 @@ public class GMSIndoorBuilding extends NSObject {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -100,10 +96,6 @@ public class GMSIndoorBuilding extends NSObject {
 	@Generated
 	@Selector("init")
 	public native GMSIndoorBuilding init();
-
-	@Generated
-	@Selector("initialize")
-	public static native void initialize();
 
 	@Generated
 	@Selector("instanceMethodForSelector:")
@@ -136,10 +128,6 @@ public class GMSIndoorBuilding extends NSObject {
 	@Generated
 	@Selector("levels")
 	public native NSArray<? extends GMSIndoorLevel> levels();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Owned

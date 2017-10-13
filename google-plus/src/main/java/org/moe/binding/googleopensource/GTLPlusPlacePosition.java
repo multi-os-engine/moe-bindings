@@ -75,10 +75,6 @@ public class GTLPlusPlacePosition extends GTLObject {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -108,10 +104,6 @@ public class GTLPlusPlacePosition extends GTLObject {
 	public native GTLPlusPlacePosition init();
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -138,10 +130,6 @@ public class GTLPlusPlacePosition extends GTLObject {
 	@Generated
 	@Selector("latitude")
 	public native NSNumber latitude();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Selector("longitude")

@@ -25,6 +25,7 @@ import org.moe.natj.objc.SEL;
 import org.moe.natj.objc.ann.ObjCClassBinding;
 import org.moe.natj.objc.ann.Selector;
 import org.moe.natj.objc.map.ObjCObjectMapper;
+import org.moe.natj.objc.ann.ProtocolClassMethod;
 
 @Generated
 @Library("GoogleMaps")
@@ -90,10 +91,6 @@ public class GMSMapLayer extends GMSCALayer {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -138,10 +135,6 @@ public class GMSMapLayer extends GMSCALayer {
 			@Mapped(ObjCObjectMapper.class) Object layer);
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -168,10 +161,6 @@ public class GMSMapLayer extends GMSCALayer {
 	@Generated
 	@Selector("layer")
 	public static native GMSMapLayer layer();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Selector("needsDisplayForKey:")
@@ -223,4 +212,14 @@ public class GMSMapLayer extends GMSCALayer {
 	@Selector("version")
 	@NInt
 	public static native long version_static();
+
+	@Generated
+	@Selector("supportsSecureCoding")
+	public static native boolean supportsSecureCoding();
+
+	@Generated
+	@ProtocolClassMethod("supportsSecureCoding")
+	public boolean _supportsSecureCoding() {
+		return supportsSecureCoding();
+	}
 }

@@ -15,7 +15,7 @@ import org.moe.natj.objc.ann.Selector;
 @Library("GoogleMobileAds")
 @Runtime(ObjCRuntime.class)
 @ObjCProtocolName("GADBannerViewDelegate")
-public interface GADBannerViewDelegate extends GADAdDelegate {
+public interface GADBannerViewDelegate {
 	@Generated
 	@IsOptional
 	@Selector("adView:didFailToReceiveAdWithError:")

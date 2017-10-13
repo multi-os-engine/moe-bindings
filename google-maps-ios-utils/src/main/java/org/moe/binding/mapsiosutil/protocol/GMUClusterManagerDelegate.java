@@ -18,7 +18,7 @@ public interface GMUClusterManagerDelegate {
 	@Generated
 	@IsOptional
 	@Selector("clusterManager:didTapCluster:")
-	default void clusterManagerDidTapCluster(GMUClusterManager clusterManager,
+	default boolean clusterManagerDidTapCluster(GMUClusterManager clusterManager,
 			@Mapped(ObjCObjectMapper.class) Object cluster) {
 		throw new java.lang.UnsupportedOperationException();
 	}
@@ -26,7 +26,7 @@ public interface GMUClusterManagerDelegate {
 	@Generated
 	@IsOptional
 	@Selector("clusterManager:didTapClusterItem:")
-	default void clusterManagerDidTapClusterItem(
+	default boolean clusterManagerDidTapClusterItem(
 			GMUClusterManager clusterManager,
 			@Mapped(ObjCObjectMapper.class) Object clusterItem) {
 		throw new java.lang.UnsupportedOperationException();

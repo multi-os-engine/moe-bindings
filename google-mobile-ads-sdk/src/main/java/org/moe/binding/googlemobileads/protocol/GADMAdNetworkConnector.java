@@ -101,4 +101,12 @@ public interface GADMAdNetworkConnector extends GADMediationAdRequest {
 	@Generated
 	@Selector("viewControllerForPresentingModalView")
 	UIViewController viewControllerForPresentingModalView();
+
+	@Generated
+	@Selector("adMuted")
+	boolean adMuted();
+
+	@Generated
+	@Selector("adVolume")
+	float adVolume();
 }

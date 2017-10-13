@@ -79,10 +79,6 @@ public class GADInterstitial extends NSObject {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -112,7 +108,7 @@ public class GADInterstitial extends NSObject {
 	@NUInt
 	public static native long hash_static();
 
-	@Generated
+	@Deprecated @Generated
 	@Selector("inAppPurchaseDelegate")
 	@MappedReturn(ObjCObjectMapper.class)
 	public native GADInAppPurchaseDelegate inAppPurchaseDelegate();
@@ -125,10 +121,6 @@ public class GADInterstitial extends NSObject {
 	@Generated
 	@Selector("initWithAdUnitID:")
 	public native GADInterstitial initWithAdUnitID(String adUnitID);
-
-	@Generated
-	@Selector("initialize")
-	public static native void initialize();
 
 	@Generated
 	@Selector("instanceMethodForSelector:")
@@ -157,10 +149,6 @@ public class GADInterstitial extends NSObject {
 	@Selector("keyPathsForValuesAffectingValueForKey:")
 	public static native NSSet<String> keyPathsForValuesAffectingValueForKey(
 			String key);
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Selector("loadRequest:")
@@ -208,12 +196,12 @@ public class GADInterstitial extends NSObject {
 		}
 	}
 
-	@Generated
+	@Deprecated @Generated
 	@Selector("setInAppPurchaseDelegate:")
 	public native void setInAppPurchaseDelegate_unsafe(
 			@Mapped(ObjCObjectMapper.class) GADInAppPurchaseDelegate value);
 
-	@Generated
+	@Deprecated @Generated
 	public void setInAppPurchaseDelegate(
 			@Mapped(ObjCObjectMapper.class) GADInAppPurchaseDelegate value) {
 		Object __old = inAppPurchaseDelegate();

@@ -73,10 +73,6 @@ public class GADRequestError extends NSError {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -95,7 +91,7 @@ public class GADRequestError extends NSError {
 	@Generated
 	@Selector("errorWithDomain:code:userInfo:")
 	public static native GADRequestError errorWithDomainCodeUserInfo(
-			String domain, @NInt long code, NSDictionary<?, ?> dict);
+			String domain, @NInt long code, NSDictionary<String, ?> dict);
 
 	@Generated
 	@Selector("hash")
@@ -113,11 +109,7 @@ public class GADRequestError extends NSError {
 	@Generated
 	@Selector("initWithDomain:code:userInfo:")
 	public native GADRequestError initWithDomainCodeUserInfo(String domain,
-			@NInt long code, NSDictionary<?, ?> dict);
-
-	@Generated
-	@Selector("initialize")
-	public static native void initialize();
+			@NInt long code, NSDictionary<String, ?> dict);
 
 	@Generated
 	@Selector("instanceMethodForSelector:")
@@ -142,10 +134,6 @@ public class GADRequestError extends NSError {
 	@Selector("keyPathsForValuesAffectingValueForKey:")
 	public static native NSSet<String> keyPathsForValuesAffectingValueForKey(
 			String key);
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Owned

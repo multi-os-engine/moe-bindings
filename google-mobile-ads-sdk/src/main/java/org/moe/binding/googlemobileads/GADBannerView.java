@@ -255,10 +255,6 @@ public class GADBannerView extends UIView {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -297,7 +293,7 @@ public class GADBannerView extends UIView {
 	@NUInt
 	public static native long hash_static();
 
-	@Generated
+	@Deprecated @Generated
 	@Selector("inAppPurchaseDelegate")
 	@MappedReturn(ObjCObjectMapper.class)
 	public native GADInAppPurchaseDelegate inAppPurchaseDelegate();
@@ -326,10 +322,6 @@ public class GADBannerView extends UIView {
 	@Generated
 	@Selector("initWithFrame:")
 	public native GADBannerView initWithFrame(@ByValue CGRect frame);
-
-	@Generated
-	@Selector("initialize")
-	public static native void initialize();
 
 	@Generated
 	@Selector("instanceMethodForSelector:")
@@ -362,10 +354,6 @@ public class GADBannerView extends UIView {
 	@Generated
 	@Selector("layerClass")
 	public static native Class layerClass();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Selector("loadRequest:")
@@ -512,12 +500,12 @@ public class GADBannerView extends UIView {
 		}
 	}
 
-	@Generated
+	@Deprecated @Generated
 	@Selector("setInAppPurchaseDelegate:")
 	public native void setInAppPurchaseDelegate_unsafe(
 			@Mapped(ObjCObjectMapper.class) GADInAppPurchaseDelegate value);
 
-	@Generated
+	@Deprecated @Generated
 	public void setInAppPurchaseDelegate(
 			@Mapped(ObjCObjectMapper.class) GADInAppPurchaseDelegate value) {
 		Object __old = inAppPurchaseDelegate();

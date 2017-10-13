@@ -113,10 +113,6 @@ public class GPGTurnBasedMatch extends NSObject {
 	}
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -226,10 +222,6 @@ public class GPGTurnBasedMatch extends NSObject {
 	public native GPGTurnBasedMatch init();
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -323,10 +315,6 @@ public class GPGTurnBasedMatch extends NSObject {
 		void call_listForIncludeMatchDataMaxCompletedMatchesMaxResultsPageTokenCompletionHandler(
 				NSArray<?> arg0, String arg1, NSError arg2);
 	}
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Selector("localParticipant")

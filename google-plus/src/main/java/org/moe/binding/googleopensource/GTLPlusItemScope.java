@@ -135,10 +135,6 @@ public class GTLPlusItemScope extends GTLObject {
 	public native String caption();
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -240,10 +236,6 @@ public class GTLPlusItemScope extends GTLObject {
 	public native GTLPlusItemScope init();
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -274,10 +266,6 @@ public class GTLPlusItemScope extends GTLObject {
 	@Generated
 	@Selector("latitude")
 	public native NSNumber latitude();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Selector("location")

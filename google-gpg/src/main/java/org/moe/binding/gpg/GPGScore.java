@@ -107,10 +107,6 @@ public class GPGScore extends NSObject implements NSCoding {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -161,10 +157,6 @@ public class GPGScore extends NSObject implements NSCoding {
 	public native GPGScore initWithLeaderboardId(String leaderboardId);
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -191,10 +183,6 @@ public class GPGScore extends NSObject implements NSCoding {
 	@Generated
 	@Selector("leaderboardId")
 	public native String leaderboardId();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Owned

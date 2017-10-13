@@ -15,7 +15,7 @@ import org.moe.natj.objc.ann.Selector;
 @Library("GoogleMobileAds")
 @Runtime(ObjCRuntime.class)
 @ObjCProtocolName("GADInterstitialDelegate")
-public interface GADInterstitialDelegate extends GADAdDelegate {
+public interface GADInterstitialDelegate {
 	@Generated
 	@IsOptional
 	@Selector("interstitial:didFailToReceiveAdWithError:")

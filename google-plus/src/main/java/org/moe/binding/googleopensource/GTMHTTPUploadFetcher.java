@@ -88,10 +88,6 @@ public class GTMHTTPUploadFetcher extends GTMHTTPFetcher {
 	public native long chunkSize();
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -151,10 +147,6 @@ public class GTMHTTPUploadFetcher extends GTMHTTPFetcher {
 	public native GTMHTTPUploadFetcher initWithRequest(NSURLRequest request);
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -189,10 +181,6 @@ public class GTMHTTPUploadFetcher extends GTMHTTPFetcher {
 	@Selector("keyPathsForValuesAffectingValueForKey:")
 	public static native NSSet<String> keyPathsForValuesAffectingValueForKey(
 			String key);
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Selector("locationChangeBlock")

@@ -9,6 +9,7 @@ import org.moe.natj.general.ann.Runtime;
 import org.moe.natj.objc.ObjCRuntime;
 import org.moe.natj.objc.ann.ObjCProtocolName;
 import org.moe.natj.objc.ann.Selector;
+import org.moe.natj.objc.ann.IsOptional;
 
 @Generated
 @Library("GoogleMobileAds")
@@ -19,4 +20,11 @@ public interface GADAdLoaderDelegate {
 	@Selector("adLoader:didFailToReceiveAdWithError:")
 	void adLoaderDidFailToReceiveAdWithError(GADAdLoader adLoader,
 			GADRequestError error);
+
+	@Generated
+	@IsOptional
+	@Selector("adLoaderDidFinishLoading:")
+	default void adLoaderDidFinishLoading(GADAdLoader adLoader) {
+		throw new java.lang.UnsupportedOperationException();
+	}
 }

@@ -32,7 +32,7 @@ public class Main extends NSObject implements UIApplicationDelegate {
 
     @Override
     public boolean applicationDidFinishLaunchingWithOptions(UIApplication application, NSDictionary launchOptions) {
-        Fabric.with(NSArray.arrayWithObject(Crashlytics.class_objc_static()));
+        Fabric.with(NSArray.arrayWithObject(Crashlytics.alloc()));
         return true;
     }
 

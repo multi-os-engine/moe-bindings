@@ -78,10 +78,6 @@ public class FBSDKProfile extends NSObject implements NSCopying, NSSecureCoding 
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -150,10 +146,6 @@ public class FBSDKProfile extends NSObject implements NSCopying, NSSecureCoding 
 			String lastName, String name, NSURL linkURL, NSDate refreshDate);
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -188,10 +180,6 @@ public class FBSDKProfile extends NSObject implements NSCopying, NSSecureCoding 
 	@Generated
 	@Selector("linkURL")
 	public native NSURL linkURL();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Selector("loadCurrentProfileWithCompletion:")

@@ -247,10 +247,6 @@ public class GADNativeContentAdView extends UIView {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -304,10 +300,6 @@ public class GADNativeContentAdView extends UIView {
 	public native GADNativeContentAdView initWithFrame(@ByValue CGRect frame);
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -334,10 +326,6 @@ public class GADNativeContentAdView extends UIView {
 	@Generated
 	@Selector("layerClass")
 	public static native Class layerClass();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Selector("logoView")

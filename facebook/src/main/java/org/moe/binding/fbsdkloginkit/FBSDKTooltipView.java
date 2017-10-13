@@ -232,10 +232,6 @@ public class FBSDKTooltipView extends UIView {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -299,10 +295,6 @@ public class FBSDKTooltipView extends UIView {
 			String tagline, String message, @NUInt long colorStyle);
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -329,10 +321,6 @@ public class FBSDKTooltipView extends UIView {
 	@Generated
 	@Selector("layerClass")
 	public static native Class layerClass();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Selector("message")

@@ -134,10 +134,6 @@ public class GTMOAuth2ViewControllerTouch extends UIViewController implements
 	public native void cancelSigningIn();
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -294,10 +290,6 @@ public class GTMOAuth2ViewControllerTouch extends UIViewController implements
 	public native String initialHTMLString();
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -328,10 +320,6 @@ public class GTMOAuth2ViewControllerTouch extends UIViewController implements
 	@Generated
 	@Selector("keychainItemName")
 	public native String keychainItemName();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Selector("navButtonsView")

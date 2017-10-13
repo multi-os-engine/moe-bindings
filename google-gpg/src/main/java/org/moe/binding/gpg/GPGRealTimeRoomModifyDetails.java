@@ -68,10 +68,6 @@ public class GPGRealTimeRoomModifyDetails extends NSObject {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -95,10 +91,6 @@ public class GPGRealTimeRoomModifyDetails extends NSObject {
 	@Generated
 	@Selector("init")
 	public native GPGRealTimeRoomModifyDetails init();
-
-	@Generated
-	@Selector("initialize")
-	public static native void initialize();
 
 	@Generated
 	@Selector("instanceMethodForSelector:")
@@ -127,10 +119,6 @@ public class GPGRealTimeRoomModifyDetails extends NSObject {
 	@Generated
 	@Selector("lastUpdateTimestamp")
 	public native long lastUpdateTimestamp();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Owned

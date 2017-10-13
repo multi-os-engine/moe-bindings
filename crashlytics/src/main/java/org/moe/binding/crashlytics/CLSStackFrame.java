@@ -72,10 +72,6 @@ public class CLSStackFrame extends NSObject {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -103,10 +99,6 @@ public class CLSStackFrame extends NSObject {
 	@Generated
 	@Selector("init")
 	public native CLSStackFrame init();
-
-	@Generated
-	@Selector("initialize")
-	public static native void initialize();
 
 	@Generated
 	@Selector("instanceMethodForSelector:")
@@ -139,10 +131,6 @@ public class CLSStackFrame extends NSObject {
 	@Generated
 	@Selector("lineNumber")
 	public native int lineNumber();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Owned

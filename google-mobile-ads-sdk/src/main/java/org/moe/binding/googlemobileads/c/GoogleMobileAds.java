@@ -287,4 +287,14 @@ public final class GoogleMobileAds {
 	@CVariable()
 	@MappedReturn(ObjCStringMapper.class)
 	public static native String GADCustomEventParametersServer();
+
+	@Generated
+	@CVariable()
+	@MappedReturn(ObjCStringMapper.class)
+	public static native String kGADAdLoaderAdTypeDFPBanner();
+
+	@Generated
+	@CVariable()
+	@MappedReturn(ObjCStringMapper.class)
+	public static native String GADNativeCustomTemplateAdMediaViewKey();
 }

@@ -237,10 +237,6 @@ public class FBSDKSendButton extends FBSDKButton implements FBSDKSharingButton {
 			@Mapped(ObjCObjectMapper.class) Object anArgument);
 
 	@Generated
-	@Selector("class")
-	public static native Class class_objc_static();
-
-	@Generated
 	@Selector("classFallbacksForKeyedArchiver")
 	public static native NSArray<String> classFallbacksForKeyedArchiver();
 
@@ -286,10 +282,6 @@ public class FBSDKSendButton extends FBSDKButton implements FBSDKSharingButton {
 	public native FBSDKSendButton initWithFrame(@ByValue CGRect frame);
 
 	@Generated
-	@Selector("initialize")
-	public static native void initialize();
-
-	@Generated
 	@Selector("instanceMethodForSelector:")
 	@FunctionPtr(name = "call_instanceMethodForSelector_ret")
 	public static native NSObject.Function_instanceMethodForSelector_ret instanceMethodForSelector(
@@ -316,10 +308,6 @@ public class FBSDKSendButton extends FBSDKButton implements FBSDKSharingButton {
 	@Generated
 	@Selector("layerClass")
 	public static native Class layerClass();
-
-	@Generated
-	@Selector("load")
-	public static native void load_objc_static();
 
 	@Generated
 	@Owned

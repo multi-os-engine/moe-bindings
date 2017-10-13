@@ -24,5 +24,5 @@ public interface GADNativeCustomTemplateAdLoaderDelegate extends
 
 	@Generated
 	@Selector("nativeCustomTemplateIDsForAdLoader:")
-	NSArray<?> nativeCustomTemplateIDsForAdLoader(GADAdLoader adLoader);
+	NSArray<String> nativeCustomTemplateIDsForAdLoader(GADAdLoader adLoader);
 }
